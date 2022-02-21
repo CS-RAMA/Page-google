@@ -1,0 +1,62 @@
+
+*{
+
+margin: 0;
+padding: 0;
+}
+    header{
+    
+    justify-content: right;
+    display: flex;
+}
+.img01{
+    width: 40px;
+}
+.main{
+    margin-left: 30%;
+}
+.in{
+    margin-bottom: 30px;
+    height: 20px;
+    width: 300px;
+    background-image: url(Google\ micro.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    justify-content: center;
+}
+.mail{
+    margin-right: 20px;
+}
+.imal{
+    margin-right: 20px;
+}
+#down{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    position:absolute;
+    background-color: aliceblue;
+    padding: 5px 5px 5px 5px;
+    border: 0.5px black solid;
+    bottom: 0;
+    width: 100%;
+}
+
+h5{
+    border-bottom: solid 0.5px black;
+}
+a{
+    text-decoration: none;
+}
+
+@media  screen and (max-width:491px) {
+ .im3{
+     width: 70%;
+ }
+ .in{
+     width: 200px;
+ }
+}
